@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EasyRootTests/EasyRootTests.swift"
+            timestampString = "538349457.311698"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "testBaseBound()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EasyRootTests.EasyRootTests.testBaseBound() -&gt; ()"
+                  moduleName = "EasyRootTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aaronsutton/Documents/Code/EasyRoot/EasyRootTests/EasyRootTests.swift"
+                  timestampString = "538349458.7922339"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "implicit closure #1 : @autoclosure () throws -&gt; Swift.Bool in EasyRootTests.EasyRootTests.testBaseBound() -&gt; ()"
+                  moduleName = "EasyRootTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aaronsutton/Documents/Code/EasyRoot/EasyRootTests/EasyRootTests.swift"
+                  timestampString = "538349458.796169"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "14">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
