@@ -7,7 +7,7 @@
 
 import Foundation
 
-/// A class representation of a radical expression
+/// Representation of a radical expression
 public final class Radical: Codable {
 
 	/// The index of the radical expression
@@ -18,7 +18,8 @@ public final class Radical: Codable {
 	/// The number outside the root sign
 	public var coefficient: Int = 1
 
-	/// Create a new radical expression
+
+	/// Create a new radical expression using only integers.
 	///
 	/// - Parameters:
 	///   - root: The number inside the root sign
@@ -30,7 +31,11 @@ public final class Radical: Codable {
 
 	/// Simplify the radical
 	public func simplify() {
-		_ = factor(radicand)
+		// Guard against imaginary numbers
+		if index % 2 == 0 && radicand < 0 {
+			return
+		}
+		factor(radicand)
 	}
 
 	/// Factor a number by the perfect powers of the index
@@ -38,10 +43,28 @@ public final class Radical: Codable {
 	/// - Parameter number: The number to factor
 	internal func factor(_ number: Int) {
 
-		let upperBase = base(bound: number)
+		/// Reference to the radicand before factoring
 		let unfactored = number
 
-		for base in 2...upperBase {
+		/// Highest base
+		let upperBase = base(bound: abs(number))
+
+		/// The lowest base, 2 or -2
+		let lowerBase: Int
+
+		/// Every perfect power lower than the number
+		let bases: CountableClosedRange<Int>
+
+		// Determine the sign of the number and set range
+		if number < 0 {
+			lowerBase = -2
+			bases = upperBase * -1...lowerBase
+		} else {
+			lowerBase = 2
+			bases = lowerBase...upperBase
+		}
+
+		for base in bases {
 			// Perfect power case
 			let perfect = base ** index
 			if number == perfect {
@@ -56,6 +79,7 @@ public final class Radical: Codable {
 				break
 			}
 		}
+		// If factoring was successful, recursivley factor the resulting radicand
 		if unfactored != radicand {
 			factor(radicand)
 		}
@@ -66,6 +90,7 @@ public final class Radical: Codable {
 	/// - Parameter number: The number
 	/// - Returns: The base value
 	internal func base(bound number: Int) -> Int {
+		/// The base
 		var base: Int = 0
 		while base ** index <= number {
 			base += 1

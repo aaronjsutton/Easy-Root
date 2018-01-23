@@ -52,6 +52,10 @@ func ~~(index: Double, radicand: Double) -> Double {
 ///   - radicand: The number inside the root sign
 /// - Returns: The result
 func ~~(index: Int, radicand: Int) -> Int {
-	return Int(pow(Double(radicand), 1.0 / Double(index)))
+	if radicand < 0 {
+		return Int(pow(Double(radicand * -1), 1.0 / Double(index)).rounded()) * -1
+	} else {
+		return Int(pow(Double(radicand), 1.0 / Double(index)).rounded())
+	}
 }
 

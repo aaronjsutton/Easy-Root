@@ -14,6 +14,7 @@
 		CC0F634A20178C9F00A1FD25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC0F634820178C9F00A1FD25 /* Main.storyboard */; };
 		CC0F635620178C9F00A1FD25 /* EasyRoot_macOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0F635520178C9F00A1FD25 /* EasyRoot_macOSTests.swift */; };
 		CC0F636120178C9F00A1FD25 /* EasyRoot_macOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0F636020178C9F00A1FD25 /* EasyRoot_macOSUITests.swift */; };
+		CC0F636C20178CEF00A1FD25 /* EasyRoot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC3BA6D32016359E008AAB8F /* EasyRoot.framework */; };
 		CC3BA6DC2016359F008AAB8F /* EasyRoot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC3BA6D32016359E008AAB8F /* EasyRoot.framework */; };
 		CC3BA6E12016359F008AAB8F /* EasyRootTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3BA6E02016359F008AAB8F /* EasyRootTests.swift */; };
 		CC3BA6E32016359F008AAB8F /* EasyRoot.h in Headers */ = {isa = PBXBuildFile; fileRef = CC3BA6D52016359E008AAB8F /* EasyRoot.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -75,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC0F636C20178CEF00A1FD25 /* EasyRoot.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
