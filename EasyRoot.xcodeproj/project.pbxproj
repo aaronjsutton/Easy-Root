@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC0F634020178C9F00A1FD25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0F633F20178C9F00A1FD25 /* AppDelegate.swift */; };
+		CC0F634220178C9F00A1FD25 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0F634120178C9F00A1FD25 /* ViewController.swift */; };
+		CC0F634520178C9F00A1FD25 /* EasyRoot_macOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CC0F634320178C9F00A1FD25 /* EasyRoot_macOS.xcdatamodeld */; };
+		CC0F634720178C9F00A1FD25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC0F634620178C9F00A1FD25 /* Assets.xcassets */; };
+		CC0F634A20178C9F00A1FD25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC0F634820178C9F00A1FD25 /* Main.storyboard */; };
+		CC0F635620178C9F00A1FD25 /* EasyRoot_macOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0F635520178C9F00A1FD25 /* EasyRoot_macOSTests.swift */; };
+		CC0F636120178C9F00A1FD25 /* EasyRoot_macOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0F636020178C9F00A1FD25 /* EasyRoot_macOSUITests.swift */; };
 		CC3BA6DC2016359F008AAB8F /* EasyRoot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC3BA6D32016359E008AAB8F /* EasyRoot.framework */; };
 		CC3BA6E12016359F008AAB8F /* EasyRootTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3BA6E02016359F008AAB8F /* EasyRootTests.swift */; };
 		CC3BA6E32016359F008AAB8F /* EasyRoot.h in Headers */ = {isa = PBXBuildFile; fileRef = CC3BA6D52016359E008AAB8F /* EasyRoot.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -15,6 +22,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		CC0F635220178C9F00A1FD25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC3BA68F2016336F008AAB8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC0F633C20178C9F00A1FD25;
+			remoteInfo = "EasyRoot macOS";
+		};
+		CC0F635D20178C9F00A1FD25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC3BA68F2016336F008AAB8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC0F633C20178C9F00A1FD25;
+			remoteInfo = "EasyRoot macOS";
+		};
 		CC3BA6DD2016359F008AAB8F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = CC3BA68F2016336F008AAB8F /* Project object */;
@@ -25,6 +46,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CC0F633D20178C9F00A1FD25 /* EasyRoot macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EasyRoot macOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC0F633F20178C9F00A1FD25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CC0F634120178C9F00A1FD25 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CC0F634420178C9F00A1FD25 /* EasyRoot_macOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EasyRoot_macOS.xcdatamodel; sourceTree = "<group>"; };
+		CC0F634620178C9F00A1FD25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC0F634920178C9F00A1FD25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC0F634B20178C9F00A1FD25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC0F634C20178C9F00A1FD25 /* EasyRoot_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EasyRoot_macOS.entitlements; sourceTree = "<group>"; };
+		CC0F635120178C9F00A1FD25 /* EasyRoot macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EasyRoot macOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC0F635520178C9F00A1FD25 /* EasyRoot_macOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyRoot_macOSTests.swift; sourceTree = "<group>"; };
+		CC0F635720178C9F00A1FD25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC0F635C20178C9F00A1FD25 /* EasyRoot macOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EasyRoot macOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC0F636020178C9F00A1FD25 /* EasyRoot_macOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyRoot_macOSUITests.swift; sourceTree = "<group>"; };
+		CC0F636220178C9F00A1FD25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC3BA6D32016359E008AAB8F /* EasyRoot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EasyRoot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC3BA6D52016359E008AAB8F /* EasyRoot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EasyRoot.h; sourceTree = "<group>"; };
 		CC3BA6D62016359E008AAB8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -36,6 +71,27 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		CC0F633A20178C9F00A1FD25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC0F634E20178C9F00A1FD25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC0F635920178C9F00A1FD25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CC3BA6CF2016359E008AAB8F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -54,11 +110,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CC0F633E20178C9F00A1FD25 /* EasyRoot macOS */ = {
+			isa = PBXGroup;
+			children = (
+				CC0F633F20178C9F00A1FD25 /* AppDelegate.swift */,
+				CC0F634120178C9F00A1FD25 /* ViewController.swift */,
+				CC0F634620178C9F00A1FD25 /* Assets.xcassets */,
+				CC0F634820178C9F00A1FD25 /* Main.storyboard */,
+				CC0F634B20178C9F00A1FD25 /* Info.plist */,
+				CC0F634C20178C9F00A1FD25 /* EasyRoot_macOS.entitlements */,
+				CC0F634320178C9F00A1FD25 /* EasyRoot_macOS.xcdatamodeld */,
+			);
+			path = "EasyRoot macOS";
+			sourceTree = "<group>";
+		};
+		CC0F635420178C9F00A1FD25 /* EasyRoot macOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC0F635520178C9F00A1FD25 /* EasyRoot_macOSTests.swift */,
+				CC0F635720178C9F00A1FD25 /* Info.plist */,
+			);
+			path = "EasyRoot macOSTests";
+			sourceTree = "<group>";
+		};
+		CC0F635F20178C9F00A1FD25 /* EasyRoot macOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CC0F636020178C9F00A1FD25 /* EasyRoot_macOSUITests.swift */,
+				CC0F636220178C9F00A1FD25 /* Info.plist */,
+			);
+			path = "EasyRoot macOSUITests";
+			sourceTree = "<group>";
+		};
 		CC3BA68E2016336F008AAB8F = {
 			isa = PBXGroup;
 			children = (
 				CC3BA6D42016359E008AAB8F /* EasyRoot */,
 				CC3BA6DF2016359F008AAB8F /* EasyRootTests */,
+				CC0F633E20178C9F00A1FD25 /* EasyRoot macOS */,
+				CC0F635420178C9F00A1FD25 /* EasyRoot macOSTests */,
+				CC0F635F20178C9F00A1FD25 /* EasyRoot macOSUITests */,
 				CC3BA69B201634C0008AAB8F /* Products */,
 				CC3BA6FF2016368A008AAB8F /* Frameworks */,
 			);
@@ -69,6 +160,9 @@
 			children = (
 				CC3BA6D32016359E008AAB8F /* EasyRoot.framework */,
 				CC3BA6DB2016359F008AAB8F /* EasyRootTests.xctest */,
+				CC0F633D20178C9F00A1FD25 /* EasyRoot macOS.app */,
+				CC0F635120178C9F00A1FD25 /* EasyRoot macOSTests.xctest */,
+				CC0F635C20178C9F00A1FD25 /* EasyRoot macOSUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -122,6 +216,59 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		CC0F633C20178C9F00A1FD25 /* EasyRoot macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC0F636920178C9F00A1FD25 /* Build configuration list for PBXNativeTarget "EasyRoot macOS" */;
+			buildPhases = (
+				CC0F633920178C9F00A1FD25 /* Sources */,
+				CC0F633A20178C9F00A1FD25 /* Frameworks */,
+				CC0F633B20178C9F00A1FD25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EasyRoot macOS";
+			productName = "EasyRoot macOS";
+			productReference = CC0F633D20178C9F00A1FD25 /* EasyRoot macOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC0F635020178C9F00A1FD25 /* EasyRoot macOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC0F636A20178C9F00A1FD25 /* Build configuration list for PBXNativeTarget "EasyRoot macOSTests" */;
+			buildPhases = (
+				CC0F634D20178C9F00A1FD25 /* Sources */,
+				CC0F634E20178C9F00A1FD25 /* Frameworks */,
+				CC0F634F20178C9F00A1FD25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC0F635320178C9F00A1FD25 /* PBXTargetDependency */,
+			);
+			name = "EasyRoot macOSTests";
+			productName = "EasyRoot macOSTests";
+			productReference = CC0F635120178C9F00A1FD25 /* EasyRoot macOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CC0F635B20178C9F00A1FD25 /* EasyRoot macOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC0F636B20178C9F00A1FD25 /* Build configuration list for PBXNativeTarget "EasyRoot macOSUITests" */;
+			buildPhases = (
+				CC0F635820178C9F00A1FD25 /* Sources */,
+				CC0F635920178C9F00A1FD25 /* Frameworks */,
+				CC0F635A20178C9F00A1FD25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC0F635E20178C9F00A1FD25 /* PBXTargetDependency */,
+			);
+			name = "EasyRoot macOSUITests";
+			productName = "EasyRoot macOSUITests";
+			productReference = CC0F635C20178C9F00A1FD25 /* EasyRoot macOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		CC3BA6D22016359E008AAB8F /* EasyRoot */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = CC3BA6E42016359F008AAB8F /* Build configuration list for PBXNativeTarget "EasyRoot" */;
@@ -167,6 +314,20 @@
 				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0920;
 				TargetAttributes = {
+					CC0F633C20178C9F00A1FD25 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					CC0F635020178C9F00A1FD25 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CC0F633C20178C9F00A1FD25;
+					};
+					CC0F635B20178C9F00A1FD25 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CC0F633C20178C9F00A1FD25;
+					};
 					CC3BA6D22016359E008AAB8F = {
 						CreatedOnToolsVersion = 9.2;
 						LastSwiftMigration = 0920;
@@ -184,6 +345,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CC3BA68E2016336F008AAB8F;
 			productRefGroup = CC3BA69B201634C0008AAB8F /* Products */;
@@ -192,11 +354,37 @@
 			targets = (
 				CC3BA6D22016359E008AAB8F /* EasyRoot */,
 				CC3BA6DA2016359F008AAB8F /* EasyRootTests */,
+				CC0F633C20178C9F00A1FD25 /* EasyRoot macOS */,
+				CC0F635020178C9F00A1FD25 /* EasyRoot macOSTests */,
+				CC0F635B20178C9F00A1FD25 /* EasyRoot macOSUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		CC0F633B20178C9F00A1FD25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC0F634720178C9F00A1FD25 /* Assets.xcassets in Resources */,
+				CC0F634A20178C9F00A1FD25 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC0F634F20178C9F00A1FD25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC0F635A20178C9F00A1FD25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CC3BA6D12016359E008AAB8F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -214,6 +402,32 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		CC0F633920178C9F00A1FD25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC0F634220178C9F00A1FD25 /* ViewController.swift in Sources */,
+				CC0F634020178C9F00A1FD25 /* AppDelegate.swift in Sources */,
+				CC0F634520178C9F00A1FD25 /* EasyRoot_macOS.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC0F634D20178C9F00A1FD25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC0F635620178C9F00A1FD25 /* EasyRoot_macOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC0F635820178C9F00A1FD25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC0F636120178C9F00A1FD25 /* EasyRoot_macOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CC3BA6CE2016359E008AAB8F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -234,6 +448,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		CC0F635320178C9F00A1FD25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC0F633C20178C9F00A1FD25 /* EasyRoot macOS */;
+			targetProxy = CC0F635220178C9F00A1FD25 /* PBXContainerItemProxy */;
+		};
+		CC0F635E20178C9F00A1FD25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC0F633C20178C9F00A1FD25 /* EasyRoot macOS */;
+			targetProxy = CC0F635D20178C9F00A1FD25 /* PBXContainerItemProxy */;
+		};
 		CC3BA6DE2016359F008AAB8F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = CC3BA6D22016359E008AAB8F /* EasyRoot */;
@@ -241,7 +465,398 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		CC0F634820178C9F00A1FD25 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC0F634920178C9F00A1FD25 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		CC0F636320178C9F00A1FD25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = "EasyRoot macOS/EasyRoot_macOS.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 79S8R8WVLX;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "EasyRoot macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aaronjsutton.EasyRoot-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		CC0F636420178C9F00A1FD25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = "EasyRoot macOS/EasyRoot_macOS.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 79S8R8WVLX;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "EasyRoot macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aaronjsutton.EasyRoot-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		CC0F636520178C9F00A1FD25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 79S8R8WVLX;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "EasyRoot macOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aaronjsutton.EasyRoot-macOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasyRoot macOS.app/Contents/MacOS/EasyRoot macOS";
+			};
+			name = Debug;
+		};
+		CC0F636620178C9F00A1FD25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 79S8R8WVLX;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "EasyRoot macOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aaronjsutton.EasyRoot-macOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasyRoot macOS.app/Contents/MacOS/EasyRoot macOS";
+			};
+			name = Release;
+		};
+		CC0F636720178C9F00A1FD25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 79S8R8WVLX;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "EasyRoot macOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aaronjsutton.EasyRoot-macOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = "EasyRoot macOS";
+			};
+			name = Debug;
+		};
+		CC0F636820178C9F00A1FD25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 79S8R8WVLX;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "EasyRoot macOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aaronjsutton.EasyRoot-macOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = "EasyRoot macOS";
+			};
+			name = Release;
+		};
 		CC3BA6932016336F008AAB8F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -523,6 +1138,33 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		CC0F636920178C9F00A1FD25 /* Build configuration list for PBXNativeTarget "EasyRoot macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC0F636320178C9F00A1FD25 /* Debug */,
+				CC0F636420178C9F00A1FD25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC0F636A20178C9F00A1FD25 /* Build configuration list for PBXNativeTarget "EasyRoot macOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC0F636520178C9F00A1FD25 /* Debug */,
+				CC0F636620178C9F00A1FD25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC0F636B20178C9F00A1FD25 /* Build configuration list for PBXNativeTarget "EasyRoot macOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC0F636720178C9F00A1FD25 /* Debug */,
+				CC0F636820178C9F00A1FD25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		CC3BA6922016336F008AAB8F /* Build configuration list for PBXProject "EasyRoot" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -551,6 +1193,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CC0F634320178C9F00A1FD25 /* EasyRoot_macOS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CC0F634420178C9F00A1FD25 /* EasyRoot_macOS.xcdatamodel */,
+			);
+			currentVersion = CC0F634420178C9F00A1FD25 /* EasyRoot_macOS.xcdatamodel */;
+			path = EasyRoot_macOS.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = CC3BA68F2016336F008AAB8F /* Project object */;
 }
