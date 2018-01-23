@@ -12,9 +12,7 @@
 		CC3BA6E32016359F008AAB8F /* EasyRoot.h in Headers */ = {isa = PBXBuildFile; fileRef = CC3BA6D52016359E008AAB8F /* EasyRoot.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CC3BA6F320163650008AAB8F /* Radical.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3BA6F220163650008AAB8F /* Radical.swift */; };
 		CC3BA6FB20163680008AAB8F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3BA6FA20163680008AAB8F /* main.swift */; };
-		CC3BA7002016368A008AAB8F /* EasyRoot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC3BA6D32016359E008AAB8F /* EasyRoot.framework */; };
 		CC3BA70220163FD7008AAB8F /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3BA70120163FD7008AAB8F /* Operators.swift */; };
-		CC3BA70620166732008AAB8F /* FactorResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3BA70520166731008AAB8F /* FactorResult.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +48,6 @@
 		CC3BA6F820163680008AAB8F /* EasyRoot CLI */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "EasyRoot CLI"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC3BA6FA20163680008AAB8F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		CC3BA70120163FD7008AAB8F /* Operators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
-		CC3BA70520166731008AAB8F /* FactorResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactorResult.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,7 +70,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC3BA7002016368A008AAB8F /* EasyRoot.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,7 +121,6 @@
 			children = (
 				CC3BA70120163FD7008AAB8F /* Operators.swift */,
 				CC3BA6F220163650008AAB8F /* Radical.swift */,
-				CC3BA70520166731008AAB8F /* FactorResult.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -277,7 +272,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC3BA70620166732008AAB8F /* FactorResult.swift in Sources */,
 				CC3BA6F320163650008AAB8F /* Radical.swift in Sources */,
 				CC3BA70220163FD7008AAB8F /* Operators.swift in Sources */,
 			);
@@ -591,6 +585,7 @@
 		CC3BA6FD20163680008AAB8F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -652,6 +647,7 @@
 		CC3BA6FE20163680008AAB8F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;

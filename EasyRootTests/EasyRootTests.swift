@@ -27,8 +27,25 @@ class EasyRootTests: XCTestCase {
 	}
 
 	func testFactor() {
-		let radical = Radical(root: 9)
+		var radical: Radical
+		radical = Radical(root: 216)
 		radical.simplify()
+		XCTAssert(radical.radicand == 6 && radical.coefficient == 6)
+		radical = Radical(root: 8, index: 3)
+		radical.simplify()
+		XCTAssert(radical.radicand == 1 && radical.coefficient == 2)
+		radical = Radical(root: 45)
+		radical.simplify()
+		XCTAssert(radical.radicand == 5 && radical.coefficient == 3)
+
+	}
+
+	func testPerformanceFactor() {
+		var radical: Radical
+		radical = Radical(root: 749809)
+		self.measure {
+			radical.simplify()
+		}
 	}
 
 	func testOperators() {
@@ -40,9 +57,9 @@ class EasyRootTests: XCTestCase {
 	func testBaseBound() {
 		var radical: Radical
 		radical = Radical(root: 9)
-		XCTAssert(radical.base(bound: radical.radicand) == 3)
+		XCTAssert(radical.base(bound: radical.radicand) == 4)
 		radical = Radical(root: 2)
-		XCTAssert(radical.base(bound: radical.radicand) == 1)
+		XCTAssert(radical.base(bound: radical.radicand) == 2)
 	}
 
 }
