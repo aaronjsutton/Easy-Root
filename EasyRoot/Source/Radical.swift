@@ -7,7 +7,30 @@
 
 import Foundation
 
-/// Representation of a radical expression
+/// A radical expression. Radical expressions are simplified by calling the objects
+/// `simplify()` method.
+///
+/// ## Usage
+/// Create a new expression using integers with
+///
+/// The cube root of 27:
+/// ```swift
+/// let expression = Radical(root: 27, index: 3)
+/// ```
+///
+/// ## Example
+/// The square root of 27:
+/// ```swift
+/// let expression = Radical(root: 27)
+/// print("Your expression is \(expression.radicand) square roots of \(expression.coefficient)")
+/// // => Your expression is 1 square roots of 27 (root 27)
+/// expression.simplify()
+/// print("Your expression is \(expression.radicand) square roots of \(expression.coefficient)")
+/// // => Your expression is 3 square roots of 3 (root 27)
+///	```
+/// ## Imaginary Numbers
+/// `simplify()` will do nothing if simplification results in an imaginary number.
+///
 public final class Radical: Codable {
 
 	/// The index of the radical expression
@@ -98,4 +121,3 @@ public final class Radical: Codable {
 		return base
 	}
 }
-
