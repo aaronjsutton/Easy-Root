@@ -1,6 +1,8 @@
 # Easy Root
 A Swift framework for simplifying radicals.
 
+[![Build Status](https://travis-ci.org/aaronjsutton/EasyRoot.svg?branch=feature-variables)](https://travis-ci.org/aaronjsutton/EasyRoot)
+
 ## Usage
 
 ### [CocoaPods](http://cocoapods.org)
@@ -12,7 +14,6 @@ pod 'EasyRoot'
 ```
 
 And run `pod install`
-
 
 ## Features
 
