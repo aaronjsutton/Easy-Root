@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 
                    DESC
 
-  s.homepage     = 'http://EXAMPLE/EasyRoot'
+  s.homepage     = 'https://aaronjsutton.github.io/Easy-Root/'
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -68,8 +68,8 @@ Pod::Spec.new do |s|
   # s.platform     = :ios, "5.0"
 
   #  When using multiple platforms
-  # s.ios.deployment_target = "5.0"
-  # s.osx.deployment_target = "10.7"
+  s.ios.deployment_target = "11.2"
+  s.osx.deployment_target = "10.13"
   # s.watchos.deployment_target = "2.0"
   # s.tvos.deployment_target = "9.0"
 
@@ -79,7 +79,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source = { git: 'http://github.com/aaronjsutton/Easy-Root', tag: s.version.to_s }
+  s.source = { git: 'https://github.com/aaronjsutton/Easy-Root.git', tag: s.version.to_s }
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -89,8 +89,8 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = 'Classes', 'Classes/**/*.{h,m}'
-  s.exclude_files = 'Classes/Exclude'
+  s.source_files  = 'EasyRoot/Source', 'EasyRootSource/**/*.{h,m}'
+  s.exclude_files = ''
 
   # s.public_header_files = "Classes/**/*.h"
 
