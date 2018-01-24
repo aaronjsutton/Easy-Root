@@ -42,7 +42,7 @@ class EasyRootTests: XCTestCase {
 			((3, -27), (-3, 1)),
 			((4, 512), (4, 2)),
 			((3, -6561), (-9, 9)),
-			((5, -12288), (-4, 12)),
+			((5, -12288), (-4, 12))
 		]
 		for set in testCases {
 			let result = runFactor(values: set.0)
@@ -85,6 +85,12 @@ class EasyRootTests: XCTestCase {
 		XCTAssert(radical.base(bound: radical.radicand) == 4)
 		radical = Radical(root: 2)
 		XCTAssert(radical.base(bound: radical.radicand) == 2)
+	}
+
+	func testStringInit() {
+		let radical = Radical(index: 2, radicand: "4")
+		XCTAssert(radical != nil)
+		XCTAssertNil(Radical(index: 1, radicand: "?3&"))
 	}
 
 }

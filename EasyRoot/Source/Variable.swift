@@ -26,3 +26,8 @@ public final class Variable: Codable {
 		exponent = power
 	}
 }
+
+// MARK: - String extraction
+extension Variable {
+
+}

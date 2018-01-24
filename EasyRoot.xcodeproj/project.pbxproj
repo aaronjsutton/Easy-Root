@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1471D05EEE38E477DD74C58D /* Pods_EasyRoot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AE4AEA611CA78F7E8066592 /* Pods_EasyRoot.framework */; };
+		3C7736E805866F810EEF7C6D /* Pods_EasyRootTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F66C389B16177154357C380 /* Pods_EasyRootTests.framework */; };
 		CC3BA6DC2016359F008AAB8F /* EasyRoot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC3BA6D32016359E008AAB8F /* EasyRoot.framework */; };
 		CC3BA6E12016359F008AAB8F /* EasyRootTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3BA6E02016359F008AAB8F /* EasyRootTests.swift */; };
 		CC3BA6E32016359F008AAB8F /* EasyRoot.h in Headers */ = {isa = PBXBuildFile; fileRef = CC3BA6D52016359E008AAB8F /* EasyRoot.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CC3BA6F320163650008AAB8F /* Radical.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3BA6F220163650008AAB8F /* Radical.swift */; };
 		CC3BA70220163FD7008AAB8F /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3BA70120163FD7008AAB8F /* Operators.swift */; };
 		CC5B17EE20183A6A00F53C74 /* Variable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5B17ED20183A6A00F53C74 /* Variable.swift */; };
+		CC5B17F02018BD1000F53C74 /* Pattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5B17EF2018BD1000F53C74 /* Pattern.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +29,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		109CF2076928517C6F4C9DE5 /* Pods-EasyRoot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyRoot.release.xcconfig"; path = "Pods/Target Support Files/Pods-EasyRoot/Pods-EasyRoot.release.xcconfig"; sourceTree = "<group>"; };
+		2AE4AEA611CA78F7E8066592 /* Pods_EasyRoot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyRoot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A3C9D9FD2D9B9D1DF78E2AA /* Pods-EasyRootTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyRootTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EasyRootTests/Pods-EasyRootTests.release.xcconfig"; sourceTree = "<group>"; };
+		5F66C389B16177154357C380 /* Pods_EasyRootTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyRootTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		74C7952BECD09B697D1E807D /* Pods-EasyRoot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyRoot.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EasyRoot/Pods-EasyRoot.debug.xcconfig"; sourceTree = "<group>"; };
+		9BF1087D5F17D5896657FEA4 /* Pods-EasyRootTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyRootTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EasyRootTests/Pods-EasyRootTests.debug.xcconfig"; sourceTree = "<group>"; };
 		CC3BA6D32016359E008AAB8F /* EasyRoot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EasyRoot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC3BA6D52016359E008AAB8F /* EasyRoot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EasyRoot.h; sourceTree = "<group>"; };
 		CC3BA6D62016359E008AAB8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -35,6 +44,7 @@
 		CC3BA6F220163650008AAB8F /* Radical.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Radical.swift; sourceTree = "<group>"; };
 		CC3BA70120163FD7008AAB8F /* Operators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
 		CC5B17ED20183A6A00F53C74 /* Variable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Variable.swift; sourceTree = "<group>"; };
+		CC5B17EF2018BD1000F53C74 /* Pattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pattern.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1471D05EEE38E477DD74C58D /* Pods_EasyRoot.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,12 +61,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC3BA6DC2016359F008AAB8F /* EasyRoot.framework in Frameworks */,
+				3C7736E805866F810EEF7C6D /* Pods_EasyRootTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A4897E9378EFF197DC2B6FEC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				74C7952BECD09B697D1E807D /* Pods-EasyRoot.debug.xcconfig */,
+				109CF2076928517C6F4C9DE5 /* Pods-EasyRoot.release.xcconfig */,
+				9BF1087D5F17D5896657FEA4 /* Pods-EasyRootTests.debug.xcconfig */,
+				4A3C9D9FD2D9B9D1DF78E2AA /* Pods-EasyRootTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		CC3BA68E2016336F008AAB8F = {
 			isa = PBXGroup;
 			children = (
@@ -63,6 +86,7 @@
 				CC3BA6DF2016359F008AAB8F /* EasyRootTests */,
 				CC3BA69B201634C0008AAB8F /* Products */,
 				CC3BA6FF2016368A008AAB8F /* Frameworks */,
+				A4897E9378EFF197DC2B6FEC /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +123,7 @@
 			children = (
 				CC5B17ED20183A6A00F53C74 /* Variable.swift */,
 				CC3BA6F220163650008AAB8F /* Radical.swift */,
+				CC5B17EF2018BD1000F53C74 /* Pattern.swift */,
 				CC3BA70120163FD7008AAB8F /* Operators.swift */,
 			);
 			path = Source;
@@ -107,6 +132,8 @@
 		CC3BA6FF2016368A008AAB8F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2AE4AEA611CA78F7E8066592 /* Pods_EasyRoot.framework */,
+				5F66C389B16177154357C380 /* Pods_EasyRootTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -129,10 +156,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CC3BA6E42016359F008AAB8F /* Build configuration list for PBXNativeTarget "EasyRoot" */;
 			buildPhases = (
+				4094A8890FF74DDE6C948A50 /* [CP] Check Pods Manifest.lock */,
+				CC5B17F22018C80F00F53C74 /* Lint Code */,
 				CC3BA6CE2016359E008AAB8F /* Sources */,
 				CC3BA6CF2016359E008AAB8F /* Frameworks */,
 				CC3BA6D02016359E008AAB8F /* Headers */,
 				CC3BA6D12016359E008AAB8F /* Resources */,
+				0A916414EC0B9212F7344E86 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -147,9 +177,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CC3BA6E72016359F008AAB8F /* Build configuration list for PBXNativeTarget "EasyRootTests" */;
 			buildPhases = (
+				B59C0879CEFA3E22EC3FE551 /* [CP] Check Pods Manifest.lock */,
 				CC3BA6D72016359F008AAB8F /* Sources */,
 				CC3BA6D82016359F008AAB8F /* Frameworks */,
 				CC3BA6D92016359F008AAB8F /* Resources */,
+				44C51FF7D557128DDB0FD493 /* [CP] Embed Pods Frameworks */,
+				0815412C5266FF1F9E6C68EA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -217,6 +250,104 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0815412C5266FF1F9E6C68EA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EasyRootTests/Pods-EasyRootTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0A916414EC0B9212F7344E86 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EasyRoot/Pods-EasyRoot-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4094A8890FF74DDE6C948A50 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EasyRoot-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		44C51FF7D557128DDB0FD493 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EasyRootTests/Pods-EasyRootTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B59C0879CEFA3E22EC3FE551 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EasyRootTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC5B17F22018C80F00F53C74 /* Lint Code */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Lint Code";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CC3BA6CE2016359E008AAB8F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -224,6 +355,7 @@
 			files = (
 				CC3BA6F320163650008AAB8F /* Radical.swift in Sources */,
 				CC5B17EE20183A6A00F53C74 /* Variable.swift in Sources */,
+				CC5B17F02018BD1000F53C74 /* Pattern.swift in Sources */,
 				CC3BA70220163FD7008AAB8F /* Operators.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +393,7 @@
 		};
 		CC3BA6E52016359F008AAB8F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74C7952BECD09B697D1E807D /* Pods-EasyRoot.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				APPLICATION_EXTENSION_API_ONLY = YES;
@@ -337,6 +470,7 @@
 		};
 		CC3BA6E62016359F008AAB8F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 109CF2076928517C6F4C9DE5 /* Pods-EasyRoot.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				APPLICATION_EXTENSION_API_ONLY = YES;
@@ -405,6 +539,7 @@
 		};
 		CC3BA6E82016359F008AAB8F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BF1087D5F17D5896657FEA4 /* Pods-EasyRootTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -471,6 +606,7 @@
 		};
 		CC3BA6E92016359F008AAB8F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A3C9D9FD2D9B9D1DF78E2AA /* Pods-EasyRootTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;

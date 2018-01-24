@@ -21,7 +21,7 @@ infix operator ~~: ExponentPrecedence
 ///   - left: The base
 ///   - right: The power
 /// - Returns: The result
-func **(left: Double, right: Double) -> Double {
+func ** (left: Double, right: Double) -> Double {
 	return pow(left, right)
 }
 
@@ -31,7 +31,7 @@ func **(left: Double, right: Double) -> Double {
 ///   - left: The base
 ///   - right: The power
 /// - Returns: The result
-func **(left: Int, right: Int) -> Int {
+func ** (left: Int, right: Int) -> Int {
 	return Int(Double(left) ** Double(right))
 }
 
@@ -41,7 +41,7 @@ func **(left: Int, right: Int) -> Int {
 ///   - index: The N
 ///   - radicand: The number inside the root sign
 /// - Returns: The result
-func ~~(index: Double, radicand: Double) -> Double {
+func ~~ (index: Double, radicand: Double) -> Double {
 	return pow(radicand, 1.0 / index)
 }
 
@@ -51,10 +51,9 @@ func ~~(index: Double, radicand: Double) -> Double {
 ///   - index: The N
 ///   - radicand: The number inside the root sign
 /// - Returns: The result
-func ~~(index: Int, radicand: Int) -> Int {
+func ~~ (index: Int, radicand: Int) -> Int {
 	if radicand < 0 {
 		return Int((Double(index) ~~ Double(radicand * -1)).rounded()) * -1
-	} 
+	}
 	return Int((Double(index) ~~ Double(radicand)).rounded())
 }
-

@@ -58,8 +58,8 @@ public final class Radical: Codable {
 	/// "3 root 27"
 	///
 	/// - Parameter string: Valid radical string
-	public convenience init?(_ string: String) {
-		guard let index = Radical.extract(index: string) else {
+	public convenience init?(index: Int, radicand string: String) {
+		guard Radical.valid(string: string) else {
 			return nil
 		}
 		self.init(root: 1)
@@ -90,16 +90,12 @@ public final class Radical: Codable {
 	///
 	/// - Parameter number: The number to factor
 	internal func factor(_ number: Int) {
-
 		/// Reference to the radicand before factoring
 		let unfactored = number
-
 		/// Highest base
 		let upperBase = base(bound: abs(number))
-
 		/// The lowest base, 2 or -2
 		let lowerBase: Int
-
 		/// Every perfect power lower than the number
 		let bases: CountableClosedRange<Int>
 
@@ -149,11 +145,21 @@ public final class Radical: Codable {
 
 // MARK: - String validation
 extension Radical {
-	/// Get the index from a radical string
+	/// Determine if a string is a valid radical string
 	///
-	/// - Parameter from: The string
-	/// - Returns: The index if found
-	class func extract(index from: String) -> Int? {
-		return nil
+	/// - Parameter string: The string
+	/// - Returns: True if valid, false if not
+	class func valid(string: String) -> Bool {
+		let regex = try? NSRegularExpression(pattern: Pattern.validRadicand, options: .caseInsensitive)
+		if regex!.numberOfMatches(in: string, options: [], range: NSMakeRange(0, string.count)) == 1 {
+			return true
+		}
+		return false
 	}
+
+	class func extract(integer string: String) -> Int {
+		let regex = try? NSRegularExpression(pattern: Pattern.integer, options: .caseInsensitive)
+		return 0
+	}
+
 }
