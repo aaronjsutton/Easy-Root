@@ -40,16 +40,41 @@ public final class Radical: Codable {
 	public var radicand: Int
 	/// The number outside the root sign
 	public var coefficient: Int = 1
-
+	/// Variables inside the root sign
+	public var variables: [Variable]
 
 	/// Create a new radical expression using only integers.
 	///
 	/// - Parameters:
 	///   - root: The number inside the root sign
 	///   - index: The index of the radical, defaults to square root
-	public init(root: Int, index: Int = 2) {
+	public convenience init(root: Int, index: Int = 2) {
+		self.init(root, index, [])
+	}
+
+	/// Create a radical from a string
+	///
+	/// "root 4x^2"
+	/// "3 root 27"
+	///
+	/// - Parameter string: Valid radical string
+	public convenience init?(_ string: String) {
+		guard let index = Radical.extract(index: string) else {
+			return nil
+		}
+		self.init(root: 1)
+	}
+
+	/// Create a radical
+	///
+	/// - Parameters:
+	///   - root: Integers inside the root sign
+	///   - index: The index of the root sign
+	///   - variables: Variables inside the root sign
+	private init(_ root: Int, _ index: Int, _ variables: [Variable]) {
 		radicand = root
 		self.index = index
+		self.variables = variables
 	}
 
 	/// Simplify the radical
@@ -119,5 +144,16 @@ public final class Radical: Codable {
 			base += 1
 		}
 		return base
+	}
+}
+
+// MARK: - String validation
+extension Radical {
+	/// Get the index from a radical string
+	///
+	/// - Parameter from: The string
+	/// - Returns: The index if found
+	class func extract(index from: String) -> Int? {
+		return nil
 	}
 }

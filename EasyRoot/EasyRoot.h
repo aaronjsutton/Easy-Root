@@ -5,7 +5,7 @@
 //  Created by Aaron Sutton on 1/22/18.
 //
 
-#import <Cocoa/Cocoa.h>
+#import <Foundation/Foundation.h>
 
 //! Project version number for EasyRoot.
 FOUNDATION_EXPORT double EasyRootVersionNumber;
