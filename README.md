@@ -1,4 +1,4 @@
-# Easy-Root
+# Easy Root
 A Swift framework for simplifying radicals.
 
 ## Usage
