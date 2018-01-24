@@ -9,5 +9,5 @@ import Foundation
 
 class Pattern {
 	static var validRadicand = "^[0-9]+$"
-	static var integer = ""
+	static var integer = "^(\\d+)$"
 }

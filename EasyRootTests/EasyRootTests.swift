@@ -93,4 +93,9 @@ class EasyRootTests: XCTestCase {
 		XCTAssertNil(Radical(index: 1, radicand: "?3&"))
 	}
 
+	func testIntegerRegex() {
+		let radical = Radical(index: 2, radicand: "4")
+
+	}
+
 }

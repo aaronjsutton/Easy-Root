@@ -149,16 +149,23 @@ extension Radical {
 	///
 	/// - Parameter string: The string
 	/// - Returns: True if valid, false if not
-	class func valid(string: String) -> Bool {
+	class func valid(string radicand: String) -> Bool {
 		let regex = try? NSRegularExpression(pattern: Pattern.validRadicand, options: .caseInsensitive)
-		if regex!.numberOfMatches(in: string, options: [], range: NSMakeRange(0, string.count)) == 1 {
+		if regex!.numberOfMatches(in: radicand, options: [], range: NSMakeRange(0, radicand.count)) == 1 {
 			return true
 		}
 		return false
 	}
 
-	class func extract(integer string: String) -> Int {
+	class func extract(integer radicand: String) -> Int {
 		let regex = try? NSRegularExpression(pattern: Pattern.integer, options: .caseInsensitive)
+		let matches = regex!.matches(in: radicand, range: NSMakeRange(0, radicand.count))
+		let integers = matches.map { result -> String in
+			let integerRange = result.range(at: 1)
+			let start = String.Index(integerRange.location)
+			let end = String.Index(integerRange.location + integerRange.length)
+			return String(
+		}
 		return 0
 	}
 

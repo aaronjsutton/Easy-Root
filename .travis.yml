@@ -4,6 +4,7 @@ language:      objective-c
 xcode_project: EasyRoot.xcodeproj
 
 before_install:
+  - pod repo update
   - bundle install
   - pod install
 
