@@ -13,6 +13,8 @@ pod 'EasyRoot'
 
 And run `pod install`
 
+See the [documentation](https://aaronjsutton.github.io/EasyRoot/) for examples.
+
 
 ## Features
 
