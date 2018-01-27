@@ -8,5 +8,4 @@ before_install:
   - bundle install
   - pod install
 
-script:
-  set -o pipefail && xcodebuild -workspace EasyRoot.xcworkspace -scheme EasyRoot \test | bundle exec xcpretty --color --test
+script: "set -o pipefail && xcodebuild -project EasyRoot.xcodeproj -scheme EasyRoot test | bundle exec xcpretty --color --test"
