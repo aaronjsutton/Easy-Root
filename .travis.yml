@@ -8,4 +8,6 @@ before_install:
   - bundle install
   - pod install
 
-script: "set -o pipefail && xcodebuild -project EasyRoot.xcodeproj -scheme EasyRoot test | bundle exec xcpretty --color --test"
+script: bundle exec fastlane scan -s EasyRoot
+
+before_script: swiftlint
