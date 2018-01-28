@@ -2,3 +2,4 @@ EasyRoot.podspec linguist-generated=true
 Podfile linguist-generated=true
 Gemfile linguist-generated=true
 Pods linguist-vendored=true
+fastlane/Fastfile linguist-generated=true
