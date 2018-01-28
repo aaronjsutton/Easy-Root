@@ -8,6 +8,5 @@ before_install:
   - bundle install
   - pod install
 
-script: bundle exec fastlane scan -s EasyRoot
-
+scirpt: bundle exec fastlane scan -x "CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO" -s EasyRoot
 before_script: swiftlint
