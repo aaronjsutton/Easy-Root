@@ -1,4 +1,5 @@
 ![Logo](https://aaronjsutton.github.io/EasyRoot/img/logo.png)
+
 A Swift framework for simplifying radicals.
 
 [![Build Status](https://travis-ci.org/aaronjsutton/EasyRoot.svg?branch=master)](https://travis-ci.org/aaronjsutton/EasyRoot)
