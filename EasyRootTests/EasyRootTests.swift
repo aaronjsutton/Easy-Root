@@ -87,4 +87,10 @@ class EasyRootTests: XCTestCase {
 		XCTAssert(radical.base(bound: radical.radicand) == 2)
 	}
 
+	func testOverflow() {
+		let willOverflow = Radical(root: 15, index: 80)
+		willOverflow.simplify()
+		XCTAssert(willOverflow.coefficient == 1 && willOverflow.index == 80 && willOverflow.radicand == 15)
+	}
+
 }

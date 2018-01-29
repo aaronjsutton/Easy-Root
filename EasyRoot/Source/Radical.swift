@@ -41,6 +41,9 @@ public final class Radical: Codable {
 	/// The number outside the root sign
 	public var coefficient: Int = 1
 
+	public enum Options {
+		case skipOverflowCheck
+	}
 
 	/// Create a new radical expression using only integers.
 	///
@@ -53,11 +56,20 @@ public final class Radical: Codable {
 	}
 
 	/// Simplify the radical
-	public func simplify() {
+	public func simplify(options: [Options] = []) {
+
+		// Guard against overflows
+		if !options.contains(.skipOverflowCheck) {
+			if overflows(max: radicand, index: index) {
+				return
+			}
+		}
+
 		// Guard against imaginary numbers
 		if index % 2 == 0 && radicand < 0 {
 			return
 		}
+
 		factor(radicand)
 	}
 
@@ -119,5 +131,18 @@ public final class Radical: Codable {
 			base += 1
 		}
 		return base
+	}
+
+	internal func overflows(max base: Int, index: Int) -> Bool {
+		var result: Int = base
+		for _ in 2...index {
+			let report = result.multipliedReportingOverflow(by: result)
+			if report.1 {
+				return true
+			} else {
+				result = report.0
+			}
+		}
+		return false
 	}
 }
